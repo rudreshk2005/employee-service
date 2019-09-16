@@ -9,6 +9,19 @@ public class Employee {
     private String dob;
     private String department;
 
+    public Employee(){
+
+    }
+
+    public Employee(long id, String firstName, String lastName, String gender, String dob, String department) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.dob = dob;
+        this.department = department;
+    }
+
     public long getId() {
         return id;
     }
